@@ -10,7 +10,7 @@ Last night while I was going through my YouTube homepage to find something to wa
 
 ![Front Cover artwork of Love Trip by Takako Mamiya, 1982](/images/love-trip-artwork.jpg)
 
-Front Cover artwork of Love Trip by Takako Mamiya, 1982
+*Front Cover artwork of Love Trip by Takako Mamiya, 1982*
 
 ### Songs
 
@@ -44,6 +44,6 @@ This song is the English version of the album opener, _Love Trip._ It's, as expe
 
 * * *
 
-Just do yourself a favor and give this album a listen. I promise, you won't be disappointed. Just a heads up though, for some reason the album is not available on major streaming services such as Spotify. Here's a YouTube link for the album that is a vinyl rip and it's just amazing. [Love Trip - Takako Mamiya \[ 間宮貴子 \] - 1982 - Full Album](https://www.youtube.com/watch?v=ovcnIPL-CWs)
+Just do yourself a favor and give this album a listen. I promise, you won't be disappointed. Just a heads up though, for some reason the album is not available on major streaming services such as Spotify. Here's a YouTube link for the album that is a vinyl rip and it's just amazing. [Love Trip - Takako Mamiya \[ 間宮貴子 \] - 1982 - Full Album](https://www.youtube.com/watch?v=x_Rdxixy9eQ)
 
 See you later!

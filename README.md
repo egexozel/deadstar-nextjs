@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+Rewritten my blog https://deadstar.one in next.js as a learning exercise. I followed the tutorial on https://nextjs.org/learn/basics/create-nextjs-app. I will probably switch to it in the near future. It's blazingly fast compared to my crude vanilla html+css blog.

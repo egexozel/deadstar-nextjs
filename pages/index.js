@@ -28,14 +28,14 @@ export default function Home({ allPostsData}) {
       <section>
         <h2 className={utilStyles.headingLg}>Ege's Internet Links</h2>
           <ul className={utilStyles.list}>
-                <li><a target="_blank" rel="me" href="https://mstdn.party/@ege">Mastodon</a></li>
-                <li><a target="_blank" href="https://twitter.com/egeozel">Twitter</a></li>
-                <li><a target="_blank" href="https://instagram.com/egeozel">Instagram</a></li>
-                <li><a target="_blank" href="https://open.spotify.com/user/12133325309?si=38d2b49b3e164704">Spotify</a>
+                <li className={utilStyles.listItem}><a id='a' target="_blank" rel="me" href="https://mstdn.party/@ege">Mastodon</a></li>
+                <li className={utilStyles.listItem}><a target="_blank" href="https://twitter.com/egeozel">Twitter</a></li>
+                <li className={utilStyles.listItem}><a target="_blank" href="https://instagram.com/egeozel">Instagram</a></li>
+                <li className={utilStyles.listItem}><a target="_blank" href="https://open.spotify.com/user/12133325309?si=38d2b49b3e164704">Spotify</a>
                 </li>
-                <li><a target="_blank" href="https://letterboxd.com/egeozel">Letterboxd</a></li>
-                <li><a target="_blank" href="https://www.last.fm/user/Egeozel">Last.fm</a></li>
-                <li><a target="_blank" href="https://myanimelist.net/animelist/egell0">MyAnimeList</a></li>
+                <li className={utilStyles.listItem}><a target="_blank" href="https://letterboxd.com/egeozel">Letterboxd</a></li>
+                <li className={utilStyles.listItem}><a target="_blank" href="https://www.last.fm/user/Egeozel">Last.fm</a></li>
+                <li className={utilStyles.listItem}><a target="_blank" href="https://myanimelist.net/animelist/egell0">MyAnimeList</a></li>
           </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

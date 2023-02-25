@@ -3,7 +3,7 @@ import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import { Spotify } from "../components/spotify/spotify.tsx";
 
-export default function Home({ allPostsData }) {
+export default function Home() {
     return (
         <Layout home>
             <Head>

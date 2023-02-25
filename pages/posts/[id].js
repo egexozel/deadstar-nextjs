@@ -3,6 +3,8 @@ import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
+import styles from '../../components/layout.module.css';
+import Link from 'next/link';
 
 export async function getStaticProps({ params }) {
   // Add the "await" keyword like this:
@@ -36,6 +38,9 @@ export default function Post({ postData }) {
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
+      <div className={styles.backToHome}>
+            <Link href="/">← Back to home</Link>
+          </div>
     </Layout>
   );
 }

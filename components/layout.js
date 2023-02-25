@@ -10,8 +10,10 @@ export const siteTitle = 'Deadstar.one';
 
 export default function Layout({ children, home}) {
   return (
+    <>
+    <Nav />
     <div className={styles.container}>
-      <Nav />
+      
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -34,8 +36,8 @@ export default function Layout({ children, home}) {
               priority
               src="/images/profile.jpg"
               className={utilStyles.borderCircle}
-              height={144}
-              width={144}
+              height={250}
+              width={250}
               alt=""
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
@@ -52,5 +54,6 @@ export default function Layout({ children, home}) {
         </div>
       )}
     </div>
+    </>
   );
 }

@@ -11,6 +11,8 @@
   -webkit-box-shadow: 0 15px 20px -14px #59008d;
   -moz-box-shadow: 0 15px 20px -14px #59008d;
   box-shadow: 0 15px 20px -14px #59008d;
+  max-width: 36rem;
+  margin: 1rem auto 2rem;
 }
 
 .navItem {
@@ -69,4 +71,14 @@
 
 .lightText {
   color: #666;
+}
+
+@media screen and (max-width: 640px) {
+  /* … */
+  .navItem {
+    font-size: 1.2rem;
+  }
+  .navbar {
+    margin: 1rem 1rem 2rem;
+  }
 }

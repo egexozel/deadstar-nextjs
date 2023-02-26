@@ -24,8 +24,7 @@ export default function Home({ slicedPosts, allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi, I'm Ege. Welcome to my veeeery simple blog!</p>
-        <p>I hope you enjoy your time here!</p>
+        <p>Hey there, I'm a Frontend <span>Designer<span className={utilStyles.ampersand}>&&</span> Developer.</span> Take a look around my digital playground and enjoy!</p>
       </section>
       <section className={utilStyles.justifyContent}>
         <section>

@@ -23,11 +23,11 @@ export default function Home({ slicedPosts, allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.yellowBg}`}>
         <p>Hi, I'm Ege. Welcome to my veeeery simple blog!</p>
         <p>I hope you enjoy your time here!</p>
       </section>
-      <section className={utilStyles.justifyContent}>
+      <section className={`${utilStyles.justifyContent} ${utilStyles.redBg}`}>
         <section>
           <h2 className={utilStyles.headingLg}>Ege's Internet Links</h2>
           <ul className={utilStyles.list}>

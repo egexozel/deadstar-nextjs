@@ -30,7 +30,7 @@ export default function Layout({ children, home, Post }) {
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
 
-        <header className={styles.header}>
+        <header className={`${styles.header} ${utilStyles.yellowBg}`}>
           {home ? (
             <>
               <Image

@@ -7,18 +7,24 @@
 }
 
 .navbar {
+  display: flex;
+  justify-content: flex-end;
   margin-bottom: 2rem;
-  -webkit-box-shadow: 0 15px 20px -14px #59008d;
-  -moz-box-shadow: 0 15px 20px -14px #59008d;
-  box-shadow: 0 15px 20px -14px #59008d;
-  max-width: 36rem;
-  margin: 1rem auto 2rem;
+  width: 100%;
+  padding: 1rem 0;
+  border-bottom: 2px solid black;
 }
 
 .navItem {
   margin-right: 1em;
   font-weight: 700;
   font-size: 1.2rem;
+  border: 1px solid #8900d8;
+  line-height: 1;
+  padding: 0.5rem;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+  box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
 }
 
 .headingXl {
@@ -86,10 +92,11 @@
 @media screen and (max-width: 600px) {
   /* … */
   .navItem {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding: 0.4rem;
   }
   .navbar {
-    margin: 1rem 1rem 2rem;
+    padding: 0.5rem 0 1rem;
   }
 
   .spotifyItem {

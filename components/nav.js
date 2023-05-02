@@ -6,14 +6,16 @@ const Nav = () => {
     return (
         <>
             <nav className={utilStyles.navbar}>
-                <Image
+                <Link href='/'>
+                    <Image
                     priority
                     src="/images/logo.png"
                     className={utilStyles.navLogo}
-                    height={50}
-                    width={50}
+                    height={45}
+                    width={45}
                     alt="Logo of the website. A sphere with pink and green gradient."
-                />
+                    />
+                </Link>    
                 
                     <Link href='/' className={utilStyles.navItem}>Home</Link>
                     <Link href='/archive' className={utilStyles.navItem}>Archive</Link>

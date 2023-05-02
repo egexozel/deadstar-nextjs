@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from 'next/image';
 import utilStyles from '../styles/utils.module.css';
-import Script from "next/script";
 
 const Nav = () => {
     return (
@@ -9,11 +8,11 @@ const Nav = () => {
             <nav className={utilStyles.navbar}>
                 <Image
                     priority
-                    src="/images/spacelogo.png"
+                    src="/images/logo.png"
                     className={utilStyles.navLogo}
-                    height={40}
-                    width={40}
-                    alt="Logo of the website. Contains a black and white illustration of a space station inside a crest."
+                    height={50}
+                    width={50}
+                    alt="Logo of the website. A sphere with pink and green gradient."
                 />
                 
                     <Link href='/' className={utilStyles.navItem}>Home</Link>

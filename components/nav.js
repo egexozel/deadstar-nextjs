@@ -22,10 +22,7 @@ const Nav = () => {
                 
                 
             </nav>
-            <Script src="/blob.js?foo=${Math.round(
-    Math.random() * 100
-  )}" strategy="beforeInteractive" />
-        </>
+        </>    
         
     );
 };

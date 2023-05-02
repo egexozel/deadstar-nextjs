@@ -15,8 +15,8 @@ export default function Home() {
             <br></br>
             <h1 className={utilStyles.headingLg}>Currently Obsessed with</h1>
             <section className={utilStyles.justifyContent}>
-                <Spotify className={utilStyles.spotifyItem} link="https://open.spotify.com/track/0yjGOQc58YVoPqkSag5SDm?si=36cf1746102348a2" />
-                <Spotify className={utilStyles.spotifyItem} link="https://open.spotify.com/playlist/37hyKI7YTOpmFWMKbERF40?si=63f1e8cc0cc64105" />
+                <Spotify className={utilStyles.spotifyItem} link="https://open.spotify.com/track/0JUWF44gfMszGNhjCF7Ufs?si=12bbf13e21724ed1" />
+                <Spotify className={utilStyles.spotifyItem} link="https://open.spotify.com/playlist/03kDhGvH5hHHZW4AlwD0aX?si=639ccda2bcff4d30" />
             </section>
         </Layout>
     );

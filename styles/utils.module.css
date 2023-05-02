@@ -41,6 +41,12 @@
   -webkit-box-shadow: 10px 10px 0px 0px #dd7dff;
   -moz-box-shadow: 10px 10px 0px 0px #dd7dff;
   box-shadow: 10px 10px 0px 0px #dd7dff;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.navItem:hover {
+  box-shadow: 6px 6px 0px 0px #dd7dff;
+  transition: box-shadow 0.1s ease-in-out;
 }
 
 .navLogo {
